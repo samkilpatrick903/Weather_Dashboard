@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <title>Weather Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Weather Dashboard</h1>
+    </header>
+
+    <div class="row">
+      <div class="card col-3 search searchBody">
+        <div class="card-body">
+          <h3>Search for a City:</h3>
+          <input
+            class="display-block inputArea searchBody"
+            placeholder="Enter City Name"
+          />
+          <button class="btn btn-primary searchBody mainBtn" type="button">
+            Search
+          </button>
+          <div id="historyBtns"></div>
+        </div>
+      </div>
+
+      <div class="col-9 currentContainer">
+        <h1>Current Weather</h1>
+        <div class="card-body currentWeather">
+          <h1 class="card-title" id="city"></h1>
+          <p class="temp"></p>
+          <p class="wind"></p>
+          <p class="humidity"></p>
+          <p class="uvIndex inlineBlock"></p>
+          <p class="uv inlineBlock"></p>
+        </div>
+
+        <h2>5 Day Forecast:</h2>
+
+        <div class="card-deck"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
