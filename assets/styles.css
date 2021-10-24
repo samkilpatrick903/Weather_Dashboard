@@ -1,62 +1,62 @@
 .header {
-    padding: 10px;
-    color: white;
-    background-color: #2986cc;
-    font-weight: bold;
-    text-align: center;
+  padding: 10px;
+  color: white;
+  background-color: #2986cc;
+  font-weight: bold;
+  text-align: center;
 }
 
 .inputArea {
-    width: 100%;
-    padding: 3%;
-    margin: 5px 0;
-    font-size: 1.2rem;
-    border: 2px solid black;
-    border-radius: 5px;
-  }
+  width: 100%;
+  padding: 3%;
+  margin: 5px 0;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
 
 .btn {
-    font-size: 1.3rem;
-    text-decoration: none;
-    padding: 6px 5px;
-    width: 100%;
-    display: block;
-    margin: 5px 0;
-    border-radius: 5px;
-    color: white;
-  }
-  
-  .btn:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
-  }
+  font-size: 1.3rem;
+  text-decoration: none;
+  padding: 6px 5px;
+  width: 100%;
+  display: block;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: white;
+}
 
-  .mainBtn {
-      margin-bottom: 40px;
-  }
+.btn:hover {
+  color: var(--primary);
+  background-color: var(--tertiary);
+}
+
+.mainBtn {
+  margin-bottom: 40px;
+}
 
 .currentWeather {
-    border: solid black 2px;
+  border: solid black 2px;
 }
 
 .inline {
-    display: inline;
+  display: inline;
 }
 .inlineBlock {
-    display: inline-block;
+  display: inline-block;
 }
 
 .forecastCards {
-    background-color: rgb(24, 38, 74);
-    color: white;
+  background-color: rgb(24, 38, 74);
+  color: white;
 }
 
 img {
-    max-width: 75px;
+  max-width: 75px;
 }
 
 .currentImg {
-    width: 100px;
-    background-color: rgb(71, 94, 184);
-    border-radius: 8px;
+  width: 100px;
+  background-color: rgb(71, 94, 184);
+  border-radius: 8px;
 }
